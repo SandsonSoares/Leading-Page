@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leading Page</title>
+    <link rel="shortcut icon" href="https://icones.pro/wp-content/uploads/2021/08/icone-x-avec-cercle-violet.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="mood.js"></script>
+</head>
+<body>
+    <header class="option">
+        <section class="topo">
+            <div class="marca">
+                <img src="https://icones.pro/wp-content/uploads/2021/08/icone-x-avec-cercle-violet.png" alt="Pura beleza">
+                <h1>Anúnciante X</h1>
+            </div>
+            <div id="hud" onclick="colocar()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="lateral">
+                <input type="email" name="email" id="EmaiLateral" class="lacuna" placeholder="Email">
+                <input type="password" name="senha" id="passwordLateral" class="lacuna" placeholder="Senha de Acesso">
+                <button class="botao" onclick="remover()"> Entrar</button>
+            </div>
+            <div class="login">
+                <input type="email" name="email" id="Email" class="lacuna" placeholder="Email">
+                <input type="password" name="senha" id="password" class="lacuna" placeholder="Senha de Acesso">
+                <button class="botao"> Entrar</button>
+            </div>
+        </section>
+    </header>
+
+
+    <main>
+        <section id="imagem"></section>
+        <section id="cadastrar">
+            <div class="formulario">
+                <h2>Cadastre-se!</h2>
+                <form action="#">
+                    <input type="text" name="name" id="Nome" class="lacuna" placeholder="Nome">
+                    <input type="text" name="sobrenome" id="sobrenome" class="lacuna" placeholder="Sobrenome">
+                    <input type="email" name="email" id="Cemail" class="lacuna" placeholder="E-mail">
+                    <input type="password" name="senha" id="Csenha" class="lacuna" placeholder="Senha">
+                </form>
+                <div class="servicos">
+                    <input type="checkbox" name="termos" id="termos"><label for="termos">Concordar com termos</label>
+                </div>
+                <button class="botao">Cadastrar</button>
+                <div class="redes">
+                    <h3>Cadastrar com: </h3>
+                    <button class="redesSociais"><img src="https://logodownload.org/wp-content/uploads/2014/09/facebook-logo-3-1.png" alt="Facebook"></button>
+                    <button class="redesSociais"><img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-vector-graphic-pixabay-15.png" alt="Google" id="google"></button>
+                    <button class="redesSociais"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="Linkedin"></button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <article class="credito">
+            <h2>Desenvolvido por <a href="https://www.linkedin.com/in/sandson-soares-bb7573232/" target="_blank">SandsonSoares</a></h2>
+        </article>
+    </footer>
+</body>
+</html>
